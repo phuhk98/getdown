@@ -1,0 +1,33 @@
+.tab-collection-content ul.nav.nav-tabs {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  padding-left: 0;
+}
+
+.tab-collection-content ul.nav.nav-tabs li {
+  margin-right: 20px;
+}
+
+.tab-collection-content ul.nav.nav-tabs li.active a {
+  color: #000;
+}
+
+.tab-collection-content .tab-content .tab-pane {
+  display: none;
+}
+
+.tab-collection-content .tab-content .tab-pane.active {
+  display: block;
+}
+
+.tab-collection-content {
+  max-width: 120rem;
+  margin: auto;
+  padding: 0 5rem;
+}
+@media (max-width: 749px) {
+  .tab-collection-content {
+    padding: 0 1.5rem;
+  }
+}
